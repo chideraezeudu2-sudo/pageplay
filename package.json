@@ -1,0 +1,16 @@
+{
+  "name": "pageplay",
+  "version": "0.1.0",
+  "description": "Turn any webpage into a multiplayer gaming arena",
+  "type": "module",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "minify": "node build/minify.js"
+  },
+  "keywords": ["bookmarklet", "games", "pvp", "webrtc"],
+  "author": "",
+  "license": "MIT"
+}
